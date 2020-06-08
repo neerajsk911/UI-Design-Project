@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sidenav.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <title>Welcome to My Blog</title>
+</head>
+<body>
+    <div class="row" id="side">
+        <div class="col-2">
+            <div id="wrapper">
+                <div class="overlay"></div>
+                    <nav class="navbar fixed-top" id="sidebar-wrapper" role="navigation">
+                        <ul class="nav sidebar-nav">
+                            <div class="sidebar-header">
+                                <div class="sidebar-brand">
+                                    <img src="css/res/myAvatar.png" alt="">
+                                    <a href="#">Neeraj S Kumar</a>
+                                    <p class="text-center">Software Engineer</p>
+                                </div>
+                            </div>
+                            <li><a href="dashboard.html" id="dash" class="active">Dashboard</a></li>
+                            <li><a href="dashboard.html#aboutme" id="abt" onclick="var x='dash';var y='cmnt'; clrchange(this.id,x);clrchange(this.id,y)">About Me</a></li>
+
+                            <li class="dropdown">
+                                <a href="whatdoido.html" class="dropdown-toggle"  data-toggle="dropdown">What Do I Do? <span class="caret"></span></a>
+                                <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                                    <div class="dropdown-header">Specializations</div>
+                                    <li><a href="whatdoido.html">Introduction</a></li>
+                                    <li><a href="https://helpx.adobe.com/in/photoshop/tutorials.html">Graphic Designing/ Photoshop</a></li>
+                                    <li><a href="https://www.codeconquest.com/tutorials/">Coding</a></li>
+                                    <li><a href="https://wiki.bi0s.in">Exploiting Codes</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#events">Recognitions/Works</a></li>
+                            <li><a href="#insight">Insight On My Work</a></li>
+                            <li class="dropdown">
+                                <a href="#works" class="dropdown-toggle"  data-toggle="dropdown">Off-Work Specificacies <span class="caret"></span></a>
+                                <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                                    <div class="dropdown-header">My Leisure</div>
+                                    <li><a href="#pictures">Hobbies</a></li>
+                                    <li><a href="#videos">Skills/Talents</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#followme" class="dropdown-toggle"  data-toggle="dropdown">Connect with Me <span class="caret"></span></a>
+                                <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                                    <div class="dropdown-header">Social Interaction</div>
+                                    <li><a href="#followme">Twitter</a></li>
+                                    <li><a href="#fb">Facebook</a></li>
+                                    <li><a href="#insta">Instagram</a></li>
+                                    <li><a href="#linkedin">LinkedIn</a></li>
+                                    <li><a href="#github">Github</a></li>
+                                    <li><a href="#hackerrank">HackerRank</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a href="dashboard.html#review" id="cmnt" onclick="var x='dash'; var y='abt'; clrchange(this.id,x); clrchange(this.id,y)">Reviews/Comments</a></li>
+                        </ul>
+                    </nav>
+                    <div id="page-content-wrapper">
+                        <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                            <span class="hamb-top"></span>
+                            <span class="hamb-middle"></span>
+                            <span class="hamb-bottom"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="site-header">
+        <div class="fluid-container">
+            <a href="index.html" id="logout"><i class="fa fa-power-off" aria-hidden="true" onclick="alert('Thank You for using the Website')"></i> Logout</a>
+            <div class="jumbotron">
+                <h1 class="display-1 text-center text-danger">Welcome to My Blog</h1>
+                <p class="lead text-info text-center">My Blog! My Life!</p>
+            </div>
+        </div>
+    </header>
+    <section id="aboutme">
+        <h1 class="display-1 text-center text-success">About Me</h1>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8" id="about-me-text">
+                <p>Finally you made it to my blog!!! Not a professional blog writer by the way, but I do feel blogs are the strongest way to express one's talents. Blogs express the hidden talents of people who are either not too confident to present it directly to others and hence keep it confined within themselves. Here you Go!! Its time to explore something about ourselves!!!<br><br>Talking about myself, I'm a native of Kerala which is indeed my motherland as well.The green pleasant atmosphere and the cool climate due to its edges beings surrounded by coasts makes it heaven! Well I'm not a geographic analyser indeed to explain all these but it only means how the climate here feels so amusing. There is no wonder why its called the <span id="goc">God's Own Country!!!</span><br><br>My Childhood in Kerala was not too long as for we resided in Delhi. I was a student at <a href="http://keralaschoolrkp.org/" class="school">Kerala Education Society Secondary School.</a> It was my place of adobe of knowledge. The memories in that campus also do have a large place in my heart!<br><br>I did travel back here for my vacations and always feel a sense of Gloominess after spending sometime here. The love and care that we get from my Grandmother and our relatives is not acquaintant in our Cities. The time we spend playing and making us feel in heaven is the time when we interact and do any random stuff with our cousins and call it a 'Game'!. I must say my Childhood has been awesome only because of all these. Without all these my Childhood would not have must to educe upon.<br><br>Well now look Where We Are! Time has passed inconspicously and now we have passed that point where everything was a "Mere Game" to What is called a "Reality"! Now being a Computer Science Engineer life seems so like "Micro-Chip" coded with pleasure at the beginning stages which can be even termed as the "Lowest Level in the Game of Life!" then heading slightly to difficult stages until we feel ourselves relaxed after getting settled with a Job and Family. I have actively did researches on Many fields of Networking Security as well as Coding practices to make me better every growing day. Well life the technology keeps on growing as a result requiring more and more of Immense work on these. Well will discuss more of these as we go!! So lets fire this journey Up!</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+                        <h3>Neeraj S Kumar</h3>
+                        <p>Experience My Summarized World through this small website created with Heartly dedication!!!</p>
+                    </div>                    
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+                        <h2>My Blog</h2>
+                        <ul>
+                            <li><a href="dashboard.html">Dashboard</a></li>
+                            <li><a href="dashboard.html#aboutme" onclick="var x='dash';var y='cmnt';var z='abt'; clrchange(z,x);clrchange(z,y)">About Me</a></li>
+                            <li><a href="whatdoido.html">What Do I Do?</a></li>
+                            <li><a href="#">Insight on My Work</a></li>
+                            <li><a href="#">Off-Work Specificacies</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">
+                      <h2>Connect With Me</h2>  
+                      <p>Follow Me on My Official Social Network Accounts</p>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                      <a href="#"><i class="fab fa-hackerrank"></i></a>
+                      <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four" id="review">
+                        <h2>Reviews/Comments</h2>
+                        <p>Leave your valuable feedback and comments for me to improve!!!</p>
+                        <form action="" id="feedback">
+                            <label for="name">Name:</label><br>
+                            <input type="text" name="name" placeholder="Name" id="nm">
+                            <span id="br-small"><label for="comment" class="br-small">Feedback/Comment:</label></span>
+                            <span id="br-small"><textarea name="comment" form="feedback" placeholder="Your Feedback is highly Welcome!!!"></textarea><br><br></span>
+                            <input type="button" class="btn" data-toggle="modal" data-target="#reviewModal" value="Submit" onclick="addname(nm.value)">
+                            <div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="reviewModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="reviewModalLongTitle">Dear</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="cls">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      Thanks For Your Feedback!!!
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom-text">A Website Developed By Neeraj S Kumar. &copy; All Rights Reserved</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/92beb69d61.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/sidenav.js"></script>
+</body>
+</html>

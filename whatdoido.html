@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>What do I?</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css">
+	<link href="https://fonts.googleapis.com/css?family=Bellota|Kaushan+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/whatdoido.css">
+	<link rel="stylesheet" href="css/sidenav.css">
+	<script src="js/whatdoido.js"></script>
+</head>
+<body>
+	<header>
+		<div class="fluid-container">
+			<div class="row">
+				<!-- Navbar -->
+				<div class="col-2">
+					<div id="wrapper">
+						<div class="overlay"></div>
+							<nav class="navbar fixed-top" id="sidebar-wrapper" role="navigation">
+								<ul class="nav sidebar-nav">
+									<div class="sidebar-header">
+										<div class="sidebar-brand">
+											<img src="css/res/myAvatar.png" alt="">
+											<a href="#">Neeraj S Kumar</a>
+											<p class="text-center">Software Engineer</p>
+										</div>
+									</div>
+									<li><a href="dashboard.html">Dashboard</a></li>
+									<li><a href="dashboard.html#aboutme" id="abt" onclick="var x='wdio';clrchange(this.id,x)">About Me</a></li>
+
+									<li class="dropdown active" id="wdio">
+										<a href="whatdoido.html" class="dropdown-toggle"  data-toggle="dropdown">What Do I Do? <span class="caret"></span></a>
+										<ul class="dropdown-menu animated fadeInLeft" role="menu">
+											<div class="dropdown-header">Specializations</div>
+											<li><a href="whatdoido.html">Introduction</a></li>
+											<li><a href="https://helpx.adobe.com/in/photoshop/tutorials.html">Graphic Designing/ Photoshop</a></li>
+											<li><a href="https://www.codeconquest.com/tutorials/">Coding</a></li>
+											<li><a href="https://wiki.bi0s.in">Exploiting Codes</a></li>
+										</ul>
+									</li>
+
+									<li><a href="#events">Recognitions/Works</a></li>
+									<li><a href="#insight">Insight On My Work</a></li>
+									<li class="dropdown">
+										<a href="#works" class="dropdown-toggle"  data-toggle="dropdown">Off-Work Specificacies <span class="caret"></span></a>
+										<ul class="dropdown-menu animated fadeInLeft" role="menu">
+											<div class="dropdown-header">My Leisure</div>
+											<li><a href="#pictures">Hobbies</a></li>
+											<li><a href="#videos">Skills/Talents</a></li>
+
+										</ul>
+									</li>
+
+									<li class="dropdown">
+										<a href="#followme" class="dropdown-toggle"  data-toggle="dropdown">Connect with Me <span class="caret"></span></a>
+										<ul class="dropdown-menu animated fadeInLeft" role="menu">
+											<div class="dropdown-header">Social Interaction</div>
+											<li><a href="#followme">Twitter</a></li>
+											<li><a href="#fb">Facebook</a></li>
+											<li><a href="#insta">Instagram</a></li>
+											<li><a href="#linkedin">LinkedIn</a></li>
+											<li><a href="#github">Github</a></li>
+											<li><a href="#hackerrank">HackerRank</a></li>
+
+										</ul>
+									</li>
+
+									<li><a href="#review" id='cmnt' onclick="var x='wdio';clrchange(this.id,x)">Reviews/Comments</a></li>
+								</ul>
+							</nav>
+							<div id="page-content-wrapper">
+								<button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+									<span class="hamb-top"></span>
+									<span class="hamb-middle"></span>
+									<span class="hamb-bottom"></span>
+								</button>
+							</div>
+						</div>
+				</div>
+					<!-- Navbar End -->
+				<div class="col-10">
+					<div class="row" id="header">
+						<div class="jumbotron d-flex mx-auto">
+							<h1 class="display-1 animated once rollIn">What Do I do?</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-10">
+							<p class="animated once bounceInUp text">
+								I have never been over just a single thing. I have been enthusiastic over many stuff ranging from Computer OS breakdown to Graphical 
+								Designing. Well to tell about the experience, its just damn <strong>AWESOME!!!</strong> The knowledge about these helps us to move on smoothly 
+								with this technologically advancing Present day World. What more then?<br><br>Being a Computer Science Engineering Student you get to know the potential of a technologically advanced future world!!. Well this technologically advancing world has its own drawbacks as well. New and advanced modes of cracking the security of a system is being discovered every day. This do pose a question on the security and safety of one's online world.<br><br>
+								Graphics Designing is a growing piece of opportunity in the upcoming world. There has been a vast increase in the number of content creators across the platforms like YouTube, Twitch etc. Photography is a also opted as a profession by many as well. Well the skeleton of a picture is given by the Photographer, the life is given by the editor. Even just minor change in the Tones or White balance can change the entire essense of the picture. Content creators on the other hand depend on Platforms like Adobe Premiere Pro, WonderShare Filmora etc. to give life to their content and add extra content as well. <br><br> 
+								Coding is the backbone of all the Applications. As mentioned before the least powerful to most powerful has an embedded code within itself that makes it function that it is intended to. Apps like Adobe Photoshop is wriiten in C and C#. Similarly other apps too have a dedicated coding base that makes it powerful and Robust.
+								<div class="row" id="cards">
+									<div class="box">
+										<div class="imgBx" onclick="link(0)">
+											<img src="css/res/graphics.jpg">
+										</div>	
+										<div class="bxcontent">
+											<h2><a href="https://helpx.adobe.com/in/photoshop/tutorials.html">Graphics Designing</a><br><span>Not too Professional, but yeah got some basics of Graphics Designing. Lets go through Adobe Photoshop !!!</span></h2>
+										</div>		
+									</div>
+									<div class="box">
+										<div class="imgBx" onclick="link(1)">
+											<img src="css/res/coding.jpg">
+										</div>	
+										<div class="bxcontent">
+											<h2><a href="https://www.codeconquest.com/tutorials/">Coding</a><br><span>Like Coding? Yeah Me Too!!! Got some tuts on some of the Prominent Programming Languages!!! Give it a shot!</span></h2>
+										</div>		
+									</div>
+									<div class="box">
+										<div class="imgBx" onclick="link(2)">
+											<img src="css/res/cyber.jpg">
+										</div>	
+										<div class="bxcontent">
+											<h2><a href="https://wiki.bi0s.in">Exploiting Bugs</a><br><span>Y not look at some of the common ways in which the security of the technologies can be compromised!</span></h2>
+										</div>		
+									</div>
+								</div>
+							</p>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</header>
+	<!-- Footer Start -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+                        <h3>Neeraj S Kumar</h3>
+                        <p>Experience My Summarized World through this small website created with Heartly dedication!!!</p>
+                    </div>                    
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+                        <h2>My Blog</h2>
+                        <ul>
+                            <li><a href="dashboard.html">Dashboard</a></li>
+                            <li><a href="dashboard.html#aboutme" onclick="var x='dash';var y='cmnt';var z='abt'; clrchange(z,x);clrchange(z,y)">About Me</a></li>
+                            <li><a href="whatdoido.html">What Do I Do?</a></li>
+                            <li><a href="#">Insight on My Work</a></li>
+                            <li><a href="#">Off-Work Specificacies</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">
+                      <h2>Connect With Me</h2>  
+                      <p>Follow Me on My Official Social Network Accounts</p>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                      <a href="#"><i class="fab fa-hackerrank"></i></a>
+                      <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four" id="review">
+                        <h2>Reviews/Comments</h2>
+                        <p>Leave your valuable feedback and comments for me to improve!!!</p>
+                        <form action="" id="feedback">
+                            <label for="name">Name:</label><br>
+                            <input type="text" name="name" placeholder="Name" id="nm">
+                            <span id="br-small"><label for="comment" class="br-small">Feedback/Comment:</label></span>
+                            <span id="br-small"><textarea name="comment" form="feedback" placeholder="Your Feedback is highly Welcome!!!"></textarea><br><br></span>
+                            <input type="button" class="btn" data-toggle="modal" data-target="#reviewModal" value="Submit" onclick="addname(nm.value)">
+                            <div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="reviewModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="reviewModalLongTitle">Dear</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="cls">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      Thanks For Your Review!!!
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom-text">A Website Developed By Neeraj S Kumar. &copy; All Rights Reserved</p>
+	</footer>
+	<!-- Footer End -->
+	<script src="https://kit.fontawesome.com/92beb69d61.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	crossorigin="anonymous"></script>
+	<script src="js/sidenav.js"></script>
+</body>
+</html>

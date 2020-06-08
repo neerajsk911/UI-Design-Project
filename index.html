@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Login Form</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two|ZCOOL+KuaiLe|Trade+Winds&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+
+</head>
+<body onload="alert('Login using 19238 as Username and UI as password')">
+	<nav class="navbar navbar-expand-xl navbar-inverse bg-light navbar-fixed" id="nav"  onclick="alert('Please Login to See the Content')">
+	  <a class="navbar-brand">My Blog</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Behind the Scenes</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">DEVs</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+
+	<div class="jumbotron">
+		<h1 id="p"><span>Welcome to My Blog</span></h1>
+		<h1><span id="login">Login</span></h1>
+
+		<form class="form-check" id="form">
+			<label>Username</label><br>
+			<input type="text" id="username" placeholder="Username:19238"><br>
+			<label>Password</label><br>
+			<input type="Password" id="pswrd" placeholder="Password:UI"><br>
+			<input class="btn" type="button" name="submit" value="Submit" onclick="validate()">
+		</form>
+	</div>
+
+	<script type="text/javascript" src="js/form.js"></script>
+	<script src="https://kit.fontawesome.com/92beb69d61.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>	

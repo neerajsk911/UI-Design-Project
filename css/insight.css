@@ -1,0 +1,13 @@
+img{
+    width: 50rem;
+    height: 50rem;
+}
+body{
+    background-color:greenyellow;
+}
+.bd-toc-item{
+    color: green;
+    border: 1px solid red;
+    padding: 10%;
+    border-radius:35px;
+} 

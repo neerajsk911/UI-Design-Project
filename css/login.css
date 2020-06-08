@@ -1,0 +1,137 @@
+body{
+  background-image: url(https://149349300.v2.pressablecdn.com/wp-content/uploads/2019/06/3d-cube-background-4k-yo.jpg);
+  /* background-image: url(https://opencollective-production.s3.us-west-1.amazonaws.com/efe39e70-b2d9-11e9-b95f-cfd4b9b7c1a2.jpg); */
+  background-size: cover;
+}
+.jumbotron{
+  background-color: transparent;
+}
+#jumbo{
+  color: green;
+  margin-left:auto;
+  margin-top: 5%; 
+}
+#span1 {
+  color: red;
+}
+#span2{
+  color:blue;
+}
+#span3{
+  color: black;
+}
+.jumbotron h1{
+  font-family: Trade Winds;
+  font-size: 75px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+input[type="text"], input[type="password"]{
+	opacity: 0.8;
+}
+input[type="text"]:hover ,input[type="password"]:hover{
+	opacity: 1.0;
+}
+label{
+  font-family: ZCOOL KuaiLe;
+  font-size: 20px;
+}
+.form-check {
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+  margin-left: 28%;
+  margin-top: 5%;
+}
+.bg-light {
+  opacity: 0.5;
+}
+.navbar a{
+  color: black;
+  font-family: 'ZCOOL KuaiLe';
+}
+#login{
+  font-family: 'Lobster Two';
+}
+.btn-success{
+  font-family: ZCOOL KuaiLe;
+  font-size: 15px;
+}
+#form{
+  margin-top: 5%;
+  margin-left: 45%;
+  padding: 0;
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+}
+
+#form input[type="text"],input[type="password"]{
+  color: rgba(255,255,255, 0.7);
+  background: rgba(0, 0, 0, 0.25);
+  border: none;
+}
+#form input[type="text"]:focus,input[type="password"]:focus{
+  background: rgba(195, 0, 255,0.25);
+  width: 120%;
+  height: 30px;
+}
+#form input[type="button"]{
+  margin-top: 10%;
+  background: rgba(195, 0, 255,0.5);
+}
+#form input[type="button"]:hover{
+  background: rgba(195, 0, 255,0.9);
+}
+#form label{
+  font-weight: 700;
+  color: rgb(195, 0, 255);
+}
+
+#p p {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, 0.25);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+}
+#p {
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  background: url(res/anim_svg.png) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+@keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@media only screen and (max-width:500px){
+  #form{
+    margin-left: 30%;
+  }
+}
+@media only screen and (max-width:970px) and (min-width:501px){
+  #form{
+    margin-left: 40%;
+  }
+}
