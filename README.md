@@ -1,5 +1,5 @@
 # UI-Design-Project
-1.The webpage begins from index.html.\n
+1.The webpage begins from index.html.
 
 2. The username and password for authenticating to the dashboard of the blog is 19238 and UI respectively. This is also mentioned as an alert message and as the placeholder text.
 
