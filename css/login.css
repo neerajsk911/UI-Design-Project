@@ -1,6 +1,5 @@
 body{
-  background-image: url(https://149349300.v2.pressablecdn.com/wp-content/uploads/2019/06/3d-cube-background-4k-yo.jpg);
-  /* background-image: url(https://opencollective-production.s3.us-west-1.amazonaws.com/efe39e70-b2d9-11e9-b95f-cfd4b9b7c1a2.jpg); */
+  background-image: url(res/login_bg.jpg);
   background-size: cover;
 }
 .jumbotron{
